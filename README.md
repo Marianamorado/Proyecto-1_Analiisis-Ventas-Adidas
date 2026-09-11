@@ -125,6 +125,50 @@ A partir del análisis se identificaron algunos patrones relevantes:
 - Los diferentes métodos de venta presentan comportamientos distintos que pueden analizarse para evaluar el rendimiento de cada canal.
 
 ---
+## 🗄️ Análisis con SQL
+
+La base procesada fue importada en SQL Server para validar los resultados obtenidos en Excel y realizar análisis adicionales.
+
+Se utilizaron:
+
+- SELECT, WHERE y ORDER BY
+- SUM, COUNT y funciones de agregación
+- GROUP BY y HAVING
+- CASE WHEN
+- funciones de fecha
+- CTE
+- funciones de ventana
+- INNER JOIN
+
+Las consultas permitieron analizar KPIs, ventas por región, producto, minorista, canal de venta, evolución temporal y rentabilidad.
+
+## 📊 Dashboard en Power BI
+
+Se desarrolló un dashboard interactivo conectado a SQL Server para profundizar el análisis comercial y de rentabilidad.
+
+### Página 1 — Ventas
+- Ventas Totales
+- Beneficio Operativo
+- Unidades Vendidas
+- Margen Operativo %
+- Evolución mensual por año
+- Ventas por producto
+- Ventas por región
+- Ventas por método de venta
+- Segmentadores interactivos
+
+![Dashboard de Ventas](Ventas_powerby.png)
+
+### Página 2 — Rentabilidad y desempeño
+- Beneficio Operativo
+- Margen Operativo %
+- Ventas por Unidad
+- Beneficio por Unidad
+- Rentabilidad por producto
+- Beneficio por minorista
+- Análisis de ventas vs. margen por producto
+
+![Dashboard de Rentabilidad](Rentabilidad%20y%20desempeño_powerby.png)
 
 ## 📁 Estructura del repositorio
 
