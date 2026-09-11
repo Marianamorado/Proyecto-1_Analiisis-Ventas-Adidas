@@ -28,8 +28,8 @@ Analizar el comportamiento de las ventas para responder preguntas como:
 - **Excel**
 - **Power Query**
 - **Tablas dinámicas**
-- **SQL** *(en desarrollo)*
-- **Power BI** *(en desarrollo)*
+- **SQL** 
+- **Power BI** 
 
 ---
 
